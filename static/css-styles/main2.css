@@ -1,0 +1,69 @@
+.card{
+    background: linear-gradient(270deg, #000080 0%, #000000 100%);
+    color: white;
+}
+.ppbg{
+    color: white;
+    margin: auto auto;
+}
+.bg-dark{
+    color: white;
+}
+.res{
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}
+.inln{
+    padding-top: 1.5rem;
+}
+.inlnimg{
+    width: 2.5rem;
+    margin:0.2rem;
+    margin-inline: 0.8rem;
+}
+.stltxt{
+    text-decoration: none;
+    color: white;
+}
+.stltxt:hover{
+    color: rgb(146, 146, 146);
+}
+@media (max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+p {
+    color: white;
+}
+
+.phone-anim{
+    animation: myAnim 2s ease 1s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}

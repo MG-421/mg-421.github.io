@@ -1,0 +1,27 @@
+.nav-link{
+    color: white;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(133, 133, 133);
+}
+.navlogo{
+    width: 1.8em;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(133, 133, 133);
+}
+.navbar-toggler-icon{
+    padding-top: 0.2em;
+}
+.navbar-toggler{
+    background-color: gray;
+}
+.navbar-toggler:hover{
+    background-color: rgb(186, 186, 186);
+}
+.rigntbar{
+    float: right;
+}
+.imgnavbar{
+    width:2rem ;   
+}
